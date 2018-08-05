@@ -14,24 +14,24 @@ int[] desiredArray = new int[N];
 System.out.println("Optimal number of operations are: "+ans );
 }
 
-static int optimalSolutions(int[] temp)                              ////temp is desiredArray
+static int optimalSolutions(int[] temp)                    ////temp is desiredArray
 {
 	int count=0; 
-	while(!zeroChecker(temp))                                         // zeroChecker() returns true if all elements are 0
+	while(!zeroChecker(temp))                   // zeroChecker() returns true if all elements are 0
    { 
    for(int i=0; i<temp.length; i++)
    {
-	   if(temp[i]%2!=0)                                               ///if temp[i] is odd
+	   if(temp[i]%2!=0)                        ///if temp[i] is odd
 	   { 
 		   temp[i]--;
-		   count++;                                                   ///to count each increment operation
+		   count++;                     ///to count each increment operation
 	   }
     }
 	 if(!zeroChecker(temp))
 	 {
-		   for(int j=0; j<temp.length; j++)                          /// to divide each element by 2(All elements are even already)
+		   for(int j=0; j<temp.length; j++)       /// to divide each element by 2(All elements are even already)
 			   temp[j]=temp[j]/2;
-		       count++;                                               /// to count double operation
+		       count++;                      /// to count double operation
 	 }
    }
 return count;	
