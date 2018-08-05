@@ -5,13 +5,13 @@
 You have an array with N elements. Initially, each element is 0. You can perform the following operations:
 
 
-1. Increment operation:  
+**1. Increment operation:**  
 
-Choose one element of the array and increment the value by one.
+   Choose one element of the array and increment the value by one.
 
-2. Doubling operation:
+**2. Doubling operation:**
 
-Double the value of each element.
+   Double the value of each element.
 
 
 
