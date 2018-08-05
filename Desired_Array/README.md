@@ -19,7 +19,7 @@ You are given a int[] desiredArray containing N elements.
 
 Compute and return the smallest possible number of operations needed to change the array from all zeroes to desiredArray.
 
-    Sample Test Case 1:
+   Sample Test Case 1:
 
      Input :     {2,1}
 
@@ -29,7 +29,7 @@ One of the optimal solutions is to apply increment operation to element 0 twice 
 
 Total number of operations are 3.
 
-      Sample Test Case 2:
+   Sample Test Case 2:
 
          Input :    {16,16,16}
 
@@ -41,7 +41,7 @@ First, apply an increment operation to each element. Then, apply the doubling op
 
 Total number of operations are: 3+4 = 7
 
-       Sample Test Case 3:
+   Sample Test Case 3:
 
 
        Input :    {100}
@@ -51,7 +51,7 @@ Total number of operations are: 3+4 = 7
 
 
 
-       Sample Test Case 4:
+   Sample Test Case 4:
 
        Input :     {0,0,1,0,1}
 
@@ -60,7 +60,7 @@ Total number of operations are: 3+4 = 7
 Some elements in the desiredArray may be zeroes.
 
 
-       Sample Test Case 5:
+   Sample Test Case 5:
 
        Input :      {123,234,345,456,567,789}
 
