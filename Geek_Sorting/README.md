@@ -1,8 +1,8 @@
-# Array-logics
+# Geek_Sorting
 
-The program is about sorting.
+This program is about sorting.
  
-We are given two arrays. We need to sort the values of one array using the second array...
+You are given two arrays. You need to sort the values of one array using the second array...
 
 Few test conditions are given below:
 
