@@ -1,7 +1,4 @@
 # Array-logics
-Contain java program files of my class assignments on array...
-
-I'm using jdk-8 for all my programs. 
 
 The program is about sorting.
  
